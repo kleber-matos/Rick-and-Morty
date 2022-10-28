@@ -1,0 +1,64 @@
+
+.content {
+    padding: 1rem;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #14AB6F;
+    color: white;
+}
+
+ img {
+    max-width: 100%;
+    height: 90px;
+    align-self: end;
+    border-radius: .2rem;
+}
+
+.person {
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.type {
+    background-color: #1fe79756;
+    padding: .3rem;
+    margin: .2rem;
+    border-radius: .5rem;
+    font-size: .725rem;
+}
+
+.number {
+    text-align: right;
+    opacity: .3;
+    color: #000000;
+}
+
+.name {
+    margin-bottom: .25rem;
+}
+
+.types {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

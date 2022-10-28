@@ -1,0 +1,42 @@
+
+
+@media screen and (min-width: 380px){
+    .person {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 576px){
+    .person {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .person {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1050px){
+    .content {
+        max-width: 1250px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+    img {
+        max-width: 150%;
+        height: 150px;
+    }
+
+    .person {
+        font-size: 1.3rem;
+    }
+
+    .type {
+        font-size: 1rem;
+    }
+    
+}
