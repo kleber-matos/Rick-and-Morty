@@ -1,9 +1,14 @@
+@media screen and (min-width: 300px){
 
+ 
+}
 
 @media screen and (min-width: 380px){
+
     .person {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr  ;
     }
+
 }
 
 @media screen and (min-width: 576px){

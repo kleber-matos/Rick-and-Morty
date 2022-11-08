@@ -19,9 +19,10 @@
 
  img {
     max-width: 100%;
-    height: 90px;
+    height: 60%;
     align-self: end;
     border-radius: .2rem;
+    display: block;
 }
 
 .person {
@@ -61,4 +62,26 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+button:hover {
+    background-color: #08922671;
+    color: #ffffff8e;
+}
+
+button {
+    background-color: #0b8b45ad;
+    cursor: pointer;
+    display: block;
+    border: none;
+    color: white;
+    border-radius: 1rem;
+    padding: .5rem;
+    display: flex;
+    margin: 0;
+    position: relative;
+    top: 2rem;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
